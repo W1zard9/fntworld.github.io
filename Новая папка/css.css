@@ -1,0 +1,302 @@
+html {
+	width:100%;
+	color:black;
+font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color:#32118E;
+	height:55px;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	text-decoration:0;
+
+	text-transform:uppercase;
+	display:flex;
+	justify-content:space-between;
+	color:white;
+}
+#logo {
+	line-height:55px;
+	font-size: 36px;
+	margin:0;
+	margin-left:68px;
+	font-family: 'Roboto', sans-serif;
+}
+
+header ul {
+	display:flex;
+
+}
+.karta {
+	height:170px;
+	width:350px;
+		background: #E7E7E7;
+border-bottom:solid #32118E 4px;
+box-sizing: border-box;
+margin: 8.5px 0 ;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10tttt);
+}
+header ul li {
+	margin:0 13px;
+
+	color:white;
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+
+}
+header ul li a:hover {
+text-decoration:underline;
+}
+header ul li a {
+		text-decoration:none;
+		color:white;
+}
+.reclama-inner{
+	margin:0 auto;
+	width:604px;
+	
+}
+.reclama {
+	margin-top:100px;
+	margin-bottom:50px;
+	text-align:center;
+	width:600px;
+
+	line-height:66px;
+	height:66px;
+	background:#494949;
+
+	
+}
+.memes {
+	margin-left:210px;
+	width:40%;
+	
+	
+}
+.meme img {
+	width:45%;
+	padding:5px;
+	margin:5px 0 ;
+	border-radius:10px;
+	border:solid #BABABA 2px;
+	height:280px;
+	
+}
+.reclama p {
+	
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+
+
+color: #FFFFFF;
+}
+.stati {
+	background: #E7E7E7;
+border-bottom:solid #32118E 4px;
+box-sizing: border-box;
+margin: 8.5px 0 ;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+	width:500px;
+	height: 250px;
+	
+}
+.stati-soderjanie{
+	margin-left:22px;
+	
+}
+.nazvanie {
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #363B40;
+	
+}
+.all-in-all {
+	display:flex;
+	justify-content:space-around;
+}
+.interesn-statii{
+	width:40%;
+	
+}
+
+.interesn-statii h2{
+	font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+
+
+
+color: #32118E;
+
+	
+}
+.statia-inter{
+	display:flex;
+	padding:7px ;
+	padding-left:0;
+}
+
+.statia-inter a {
+	font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-decoration:none;
+/* identical to box height */
+
+
+color: #3C4043;
+	
+}
+.statia-inter a:hover {
+	text-decoration:underline;
+	
+}
+.opisanie {
+	font-style: normal;
+	width:95%;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+margin-bottom:65px;
+color: #333333;
+	
+}
+.podrobnee{
+	font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-decoration:none;
+
+
+color: #32118E;
+	
+	
+}
+.podrobnee:hover {
+text-decoration:underline;
+
+}
+.vse-stati {
+	width:55%;
+	margin:0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.vse-novosti {
+	
+	width:58%;
+	margin:0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+.statia{
+	width:800px;
+	margin-left:76px;
+		border:1px solid #BABABA;
+border-radius:5px;
+	
+}
+.statia h1 {
+	font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+padding-left:76px;
+color: #32118E;
+
+}
+.statia p {
+	padding-left:65px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #3C4043;
+	
+}
+.thanx {
+	text-align:center;
+
+}
+.video {
+	padding-left:115px;	
+}
+.newses {
+
+}
+.one_news{
+	margin-left:150px;
+	padding:10px;
+	margin-top:25px;
+	margin-bottom:25px;
+	text-align:center;
+	width:550px;
+	border:1px solid #BABABA;
+border-radius:5px;
+	
+}
+
+.one_news p {
+	
+	text-align:left;
+	margin:0 ;
+	padding: 10px 20px;
+	
+}
+.novost {
+
+	
+}
+.time {
+	
+	border-top:#BABABA solid 1px;
+}
+.athor {
+	width:100%;
+	display:flex;
+	padding-left:20px;
+	
+}
+.athor a {
+color:#a80b4b;
+	font-size:20px;
+	line-height:40px;
+	padding-left:10px;
+	text-decoration:none;
+}
+.athor a:hover {
+	text-decoration:underline;
+	
+}
+.athor img {
+	border-radius:100%;
+	width:40px;
+	height:40px;
+	
+}
+.imagenovost{
+	margin-top:10px;
+width:510px;
+padding-bottom:5px;
+
+height:307px;
+}
